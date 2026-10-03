@@ -1,24 +1,53 @@
-# ElectroHub — Vercel-ready electronics store
+# Electronics E-Store
 
-Everything is intentionally kept in ONE folder. There are no subfolders.
+A simple electronics e-commerce website prototype built with HTML, CSS, and JavaScript.
 
-Files:
-- index.html
-- shop.html
-- product.html
-- cart.html
-- login.html
-- register.html
-- checkout.html
-- orders.html
-- style.css
-- data.js
-- store.js
-- app.js
-- vercel.json
-- README.md
+## Files
 
-The JavaScript backend layer uses browser localStorage for demo accounts, cart and orders. This is suitable for a simple Vercel demo. For a real store, connect authentication, database and payment APIs.
+* `index.html` — Main store page
+* `style.css` — Website styling and responsive design
+* `app.js` — Main JavaScript functionality
+* `products.js` — Product data and product information
+* `package.json` — Project configuration and dependencies
+* `vercel.json` — Vercel deployment configuration
 
-## Vercel
-Upload this folder to GitHub, import it into Vercel, choose Other/no framework, leave build command empty, and deploy.
+## Features
+
+* Electronics product listings
+* Product search
+* Product categories
+* Product details
+* Add to cart
+* Remove from cart
+* Update quantities
+* Cart total calculation
+* Responsive design
+* Modern e-commerce UI
+* JavaScript-based interactions
+
+## Technologies
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Vercel
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+The project is designed to be deployed directly to Vercel.
+
+```bash
+vercel
+```
+
+## Status
+
+Prototype e-commerce website.
